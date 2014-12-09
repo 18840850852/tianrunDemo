@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="funcs">
+        <item>语音验证码</item>
+        <item>App回呼</item>
+        <item>语音短信</item>
+    </string-array>
+
+</resources>
