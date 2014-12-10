@@ -97,7 +97,7 @@ public class VoiceVertifyActivity extends DemoBaseActivity implements
 	 */
 	private String getRandomIdentifyCode() {
 		StringBuffer code = new StringBuffer();
-		int length = new Random().nextInt(10) + 1;
+		int length = 4; //现在将验证码长度定为4
 		System.out.println("length:" + length);
 		for (int i = 0; i < length; ++i) {
 			code.append(getRandomNumber());
